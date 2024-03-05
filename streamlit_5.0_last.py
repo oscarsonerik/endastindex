@@ -6,7 +6,7 @@ Hello *world!*
 """)
 import numpy as np
 import streamlit as st
-import geopandas as gpd
+#import geopandas as gpd
 import pandas as pd
 import streamlit.components.v1 as stc
 import matplotlib.pyplot as plt
