@@ -9,7 +9,7 @@ import streamlit as st
 #import geopandas as gpd
 import pandas as pd
 import streamlit.components.v1 as stc
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import numpy as np
 #import Calculations_streamlit as calc
 import Calculations_streamlit_avg_last as calc_last
