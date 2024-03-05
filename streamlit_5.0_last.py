@@ -30,7 +30,7 @@ with open(path_to_html, 'r', encoding="utf-8") as f:
 
 #https://docs.streamlit.io/1.30.0/library/components/components-api#stiframe
 st.header("En recirkuleringskarta")
-map = st.components.v1.iframe('http://127.0.0.1:5500/index.html#14/',height=500, width= 700)  # För att se hela hemsidan. Funkar sålänge man går live i samma map.
+map = st.components.v1.iframe('https://oscarsonerik.github.io/endastindex/',height=500, width= 700)  # För att se hela hemsidan. Funkar sålänge man går live i samma map.
 #st.components.v1.html(html_data, height=800, width=1200, scrolling=True)
 #map = st.components.v1.iframe('https://api.lantmateriet.se/open/topowebb-ccby/v1/wmts',height=500, width= 700)
 
